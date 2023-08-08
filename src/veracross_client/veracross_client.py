@@ -5757,12 +5757,12 @@ class VeracrossClient:
             pandas.DataFrame: A DataFrame containing the list of academic classes.
 
         """
-        if 'academics.classes:list' not in self.scopes:
+        if 'classes:list' not in self.scopes:
             print(
                 "Error: You don't have the required scope for this endpoint. Please add 'academics.classes:list' to your scopes.")
             return pd.DataFrame()
 
-        endpoint = "academics/classes"
+        endpoint = "classes"
         headers = {
             'Authorization': f'Bearer {self.access_token}',
             'X-API-Revision': x_api_revision,
