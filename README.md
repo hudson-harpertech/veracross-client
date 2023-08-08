@@ -29,6 +29,9 @@ To create a client for connecting to Veracross API, use the following code:
 
 ```
 import veracross_client as vc
+import json
+
+secrets =json.loads(open('config.json').read())
 
 client = vc.VeracrossClient(school_route=secrets['school_route'],
                             client_id=secrets['client_id'],
