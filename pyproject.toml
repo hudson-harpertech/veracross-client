@@ -1,0 +1,7 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+"Homepage" = "https://github.com/hudson-harpertech/veracross-client"
+"Bug Tracker" = "https://github.com/hudson-harpertech/veracross-client/issues"
