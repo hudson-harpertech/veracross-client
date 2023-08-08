@@ -39,3 +39,7 @@ client = vc.VeracrossClient(school_route=secrets['school_route'],
 Be sure to replace the list of scopes with the scopes added to the OAuth Application. The veracross-client wrapper will return an error if a function with inappropriate scopes is used.
 
 Once the client is initiated, use the client's methods to access individual endpoints of the Veracross API. All GET methods will return a dataframe.
+
+## Contributing
+
+This wrapper is still in development. Methods for individual endpoints are not guaranteed to work. Please post issues with the name of the method that is not working along with a description of the error being encountered.
