@@ -2,6 +2,21 @@
 requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
+[project]
+name = "veracross-client"
+version = "0.0.2"
+authors = [
+  { name="Hudson Harper", email="hudson@harpertech.io" },
+]
+description = "Python wrapper for communicating with the Veracross API"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
 [project.urls]
 "Homepage" = "https://github.com/hudson-harpertech/veracross-client"
 "Bug Tracker" = "https://github.com/hudson-harpertech/veracross-client/issues"
