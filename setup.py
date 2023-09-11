@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="veracross-client",
-    version="0.0.3",
+    version="0.0.4",
     author="Hudson Harper",
     author_email="hudson@harpertech.io",
     description="Python wrapper for communicating with the Veracross API",
