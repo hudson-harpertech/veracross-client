@@ -1,2 +1,2 @@
-veracross_client.veracross_client
+veracross-client
 pandas
