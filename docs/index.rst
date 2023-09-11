@@ -56,6 +56,8 @@ The wrapper is in development. Report any issues you encounter, specifying the p
    :maxdepth: 2
    :caption: Contents:
 
+   api_reference
+
 Indices and tables
 ==================
 
