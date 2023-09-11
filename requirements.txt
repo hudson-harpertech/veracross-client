@@ -1,2 +1,2 @@
-veracross-client
+veracross-client==0.0.4
 pandas
