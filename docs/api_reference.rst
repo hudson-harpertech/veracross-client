@@ -1,5 +1,5 @@
 API Reference
 =============
 
-.. automodule:: veracross-client
+.. automodule:: veracross_client.veracross_client
    :members:
