@@ -1,8 +1,10 @@
 API Reference
 =============
 
-veracross_client.veracross_client
----------------------------------
+Veracross Client
+------------------------------
 
-.. automodule:: veracross_client.veracross_client
-   :members:
+.. automodule:: veracross_client
+    :members:
+    :undoc-members:
+    :show-inheritance:

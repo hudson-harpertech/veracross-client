@@ -8333,11 +8333,11 @@ class VeracrossClient:
         Args:
             id (int): Internal Course ID.
             data (dict): Data to update the course.
-                - name (str): Course Name.
-                - course_id (str): Course ID.
-                - subject (dict):
-                    - catalog_title (str): Catalog Title.
-                    - catalog_description (str): Catalog Description.
+            - name (str): Course Name.
+            - course_id (str): Course ID.
+            - subject (dict):
+                - catalog_title (str): Catalog Title.
+                - catalog_description (str): Catalog Description.
             x_api_revision (str, optional): API Revision.
             auth_token (str, optional): Authorization Token.
 
