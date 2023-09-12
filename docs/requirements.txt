@@ -1,2 +1,3 @@
 pandas
 veracross-client
+sphinx-rtd-theme
