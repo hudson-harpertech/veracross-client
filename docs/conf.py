@@ -29,3 +29,8 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 html_theme = "sphinx_rtd_theme"
 html_static_path = ['_static']
+
+try:
+    import veracross_client.veracross_client
+except Exception as e:
+    print(f"Error importing: {e}")
